@@ -1,0 +1,40 @@
+Here is a documentation file:-
+
+1.What each HTML element does ?
+
+<h1> to <h6> - Define headings from largest (h1) to smallest (h6).
+<p> - Defines a paragraph of text.
+<a> - Creates a hyperlink to another page or website.
+<img> - Embeds an image and supports alt text for accessibility.
+<ul> - Creates an unordered list (bullet points).
+<ol> - Creates an ordered list (numbered items).
+<li> - Defines each item inside a list.
+<table> - Used to display data in rows and columns.
+<form> - Wraps all input fields for user data submission.
+<input> - Creates input fields (text, email, date, etc.).
+<textarea> - Allows users to type a multi-line message.
+<select> - A dropdown menu for choosing one option.
+<option> - Defines each choice inside a <select>.
+<nav> - Represents the site navigation area.
+<header> - Represents the top section of a page.
+<main> - Represents the main content area.
+<section> - Groups related content on a page.
+<footer> - Represents the bottom section of a page.
+
+2. Why I chose specific input types ?
+
+<input type="text"> is used for general text input like a name.
+<input type="email"> validates the email format automatically.
+<input type="tel"> is used for phone numbers, with a pattern to allow only digits.
+<textarea> is ideal for longer messages because it supports multiple lines.
+<select> lets users pick from a list of topics easily.
+<input type="date"> gives users a calendar to select a date.
+<input type="range"> allows users to slide and choose a level (like urgency).
+Validation attributes like required and pattern help make sure correct data is entered.
+
+3. How my navigation structure works ?
+
+I placed a <nav> element inside the <header> of each page to provide a consistent navigation menu.
+It includes links to all three pages: portfolio.html (Home), about.html (About), and contact.html (Contact).
+The links are relative and work within the same folder. This helps users move easily between different sections of my website.
+
